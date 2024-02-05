@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.wrapper{
+	display:grid;
+	grid-template-columns:repeat(3, 1fr);
+	gap:10px;
+}
+.card{
+	border: 10px solid #ccc;
+	background-color:#fafafa;
+	min-height:200px;
+    padding: 9px;
+	
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-end;
+}
+.card >h1{
+	font-size:1.5em;
+	padding:3px 0px;
+}
+.card>p{
+	font-size:0.75em;
+	padding:3px 0px;
+}
